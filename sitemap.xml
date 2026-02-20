@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://corp.reatrixshop.com/</loc>
+    <lastmod>2026-02-21T03:56:00+07:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://corp.reatrixshop.com/vouchers.html</loc>
+    <lastmod>2026-02-21T03:56:00+07:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://corp.reatrixshop.com/contact.html</loc>
+    <lastmod>2026-02-21T03:56:00+07:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://corp.reatrixshop.com/about.html</loc>
+    <lastmod>2026-02-21T03:56:00+07:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://corp.reatrixshop.com/payment.html</loc>
+    <lastmod>2026-02-21T03:56:00+07:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+</urlset>
