@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /contact.html
+Allow: /vouchers.html
+
+# Hindari pengindeksan folder aset jika tidak diperlukan
+Disallow: /assets/css/
+Disallow: /assets/js/
+
+# Lokasi Sitemap (Ganti sesuai subdomain kamu)
+Sitemap: https://corp.reatrixshop.com/sitemap.xml
