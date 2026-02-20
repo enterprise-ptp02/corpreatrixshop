@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metode Pembayaran Lengkap | ReatrixShop - Reatrix Network</title>
+    
+    <style>
+        :root {
+            --primary: #1a2a6c;
+            --accent: #b21f1f;
+            --text-main: #2c3e50;
+            --text-light: #5d6d7e;
+            --bg-body: #f4f7f9;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-body);
+            margin: 0; padding: 0;
+        }
+
+        header {
+            background: white; padding: 20px 0;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+            position: sticky; top: 0; z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1000px; margin: 0 auto;
+            display: flex; justify-content: space-between; align-items: center; padding: 0 20px;
+        }
+
+        .btn-home {
+            text-decoration: none; color: var(--primary); font-weight: 600;
+            border: 1.5px solid var(--primary); padding: 8px 16px; border-radius: 6px; font-size: 13px;
+        }
+
+        .main-wrapper { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+
+        .page-header { text-align: center; margin-bottom: 50px; }
+        .page-header h1 { color: var(--primary); font-size: 2.2rem; margin-bottom: 10px; }
+
+        .manual-info {
+            background: #fff; border-left: 5px solid var(--accent);
+            padding: 20px; border-radius: 8px; margin-bottom: 40px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .category-title {
+            font-size: 1.1rem; font-weight: 800; color: var(--primary);
+            margin: 40px 0 20px; padding-bottom: 10px; border-bottom: 2px solid #e2e8f0;
+            display: flex; align-items: center; gap: 10px;
+        }
+
+        .payment-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 15px;
+        }
+
+        .payment-item {
+            background: white; padding: 20px 10px; border-radius: 12px;
+            text-align: center; border: 1px solid #edf2f7; transition: 0.3s;
+        }
+
+        .payment-item:hover { border-color: var(--primary); transform: translateY(-3px); }
+
+        .payment-item img {
+            height: 35px; max-width: 110px; object-fit: contain;
+            margin-bottom: 12px; filter: grayscale(20%);
+        }
+
+        .payment-item strong { display: block; font-size: 0.85rem; color: var(--text-main); }
+
+        footer {
+            text-align: center; padding: 60px 20px; background: white;
+            border-top: 1px solid #edf2f7; margin-top: 60px; font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .payment-grid { grid-template-columns: repeat(2, 1fr); }
+            .page-header h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <span style="font-weight: 800; color: var(--primary);">REATRIX<span style="color: var(--accent);">SHOP</span></span>
+            <a href="index.html" class="btn-home">← Beranda</a>
+        </div>
+    </header>
+
+    <div class="main-wrapper">
+        <div class="page-header">
+            <h1>Saluran Pembayaran Resmi</h1>
+            <p>Berbagai pilihan metode pembayaran untuk memudahkan transaksi Anda di ekosistem Reatrix Network.</p>
+        </div>
+
+        <div class="manual-info">
+            <strong>Sistem Konfirmasi Manual:</strong>
+            <p style="margin: 5px 0 0; font-size: 0.95rem;">Pilih metode di bawah, lakukan transfer, lalu kirim bukti pembayaran ke WhatsApp Admin. Tim <strong>PT REATRIX DIGITAL INDOKARYA</strong> akan memproses pesanan Anda setelah validasi.</p>
+        </div>
+
+        <div class="category-title">📱 Dompet Digital (E-Wallet)</div>
+        <div class="payment-grid">
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Logo_dana_blue.svg" alt="DANA">
+                <strong>DANA</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Logo_OVO.svg" alt="OVO">
+                <strong>OVO</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Logo_GoPay.svg" alt="GOPAY">
+                <strong>GoPay / Gojek</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Logo_ShopeePay.svg" alt="ShopeePay">
+                <strong>ShopeePay</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/LinkAja.svg" alt="LinkAja">
+                <strong>LinkAja</strong>
+            </div>
+        </div>
+
+        <div class="category-title">🏦 Transfer Bank Nasional</div>
+        <div class="payment-grid">
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Bank_Central_Asia.svg" alt="BCA">
+                <strong>Bank BCA</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Bank_Mandiri_logo_2016.svg" alt="MANDIRI">
+                <strong>Bank Mandiri</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/id/5/55/BNI_logo.svg" alt="BNI">
+                <strong>Bank BNI</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/BRI_Logo.svg" alt="BRI">
+                <strong>Bank BRI</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/id/a/a0/Bank_Syariah_Indonesia_logo.svg" alt="BSI">
+                <strong>Bank BSI</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Logo_Bank_Jago.svg" alt="JAGO">
+                <strong>Bank Jago / Artos</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://www.CIMBniaga.com.id/content/dam/cimb/logo/Logo-CIMB-Niaga.png" alt="CIMB">
+                <strong>Bank CIMB Niaga</strong>
+            </div>
+        </div>
+
+        <div class="category-title">🏪 Gerai Retail & Pulsa</div>
+        <div class="payment-grid">
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Logo_Indomaret.png" alt="Indomaret">
+                <strong>Indomaret</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Alfamart_logo.svg" alt="Alfamart">
+                <strong>Alfamart</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Telkomsel_Logo_2021.svg" alt="Telkomsel">
+                <strong>Pulsa Telkomsel</strong>
+            </div>
+            <div class="payment-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Logo_XL_Axiata_2016.svg" alt="XL">
+                <strong>Pulsa XL / Axis</strong>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 <b>ReatrixShop</b>. All Rights Reserved. <br>
+        Part of <b>Reatrix Network</b> Holding Ecosystem <br>
+        Operated by <b>PT REATRIX DIGITAL INDOKARYA</b>
+    </footer>
+
+</body>
+</html>
