@@ -7,25 +7,31 @@
   </url>
 
   <url>
-    <loc>https://corp.reatrixshop.com/vouchers.html</loc>
+    <loc>https://www.reatrixshop.com/</loc>
+    <lastmod>2026-02-21T03:56:00+07:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://corp.reatrixshop.com/corporate-structure.html.html</loc>
     <lastmod>2026-02-21T03:56:00+07:00</lastmod>
     <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://corp.reatrixshop.com/contact.html</loc>
+    <loc>https://corp.reatrixshop.com/Disclaimer.html</loc>
     <lastmod>2026-02-21T03:56:00+07:00</lastmod>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://corp.reatrixshop.com/about.html</loc>
+    <loc>https://corp.reatrixshop.com/privacy-policy.html</loc>
     <lastmod>2026-02-21T03:56:00+07:00</lastmod>
     <priority>0.70</priority>
   </url>
 
   <url>
-    <loc>https://corp.reatrixshop.com/payment.html</loc>
+    <loc>https://corp.reatrixshop.com/term-of-service.html</loc>
     <lastmod>2026-02-21T03:56:00+07:00</lastmod>
     <priority>0.60</priority>
   </url>
